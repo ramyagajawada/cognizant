@@ -1,0 +1,15 @@
+package com;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.util.*;
+public class FileRead
+{
+	public static void main(String ar[]) throws Exception
+	{
+		FileWriter writer =new FileWriter("D:\\fileex2.txt");
+		BufferedWriter buffer=new BufferedWriter(writer);
+		buffer.write("welcom");
+		buffer.close();
+		System.out.println("success");
+	}
+}

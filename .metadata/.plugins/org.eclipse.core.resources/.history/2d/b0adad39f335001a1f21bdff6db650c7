@@ -1,0 +1,19 @@
+package com;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+public class FileWrite {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileReader writer =new FileReader("D:\\fileex2.txt");
+		BufferedReader buffer=new BufferedReader(Reader);
+		buffer.read();
+		buffer.close();
+		System.out.println("success");
+	}
+
+}

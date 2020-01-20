@@ -1,0 +1,22 @@
+package com;
+import java.io.*;
+interface Serializable
+{
+	
+}
+
+public class SerializationExample implements Serializable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int id;
+String name;
+public Student(int id,String name)
+{
+	this.id=id;
+	this.name=name;
+	System.out.println("id"+id+"name"+name);
+}
+	}
+}
+

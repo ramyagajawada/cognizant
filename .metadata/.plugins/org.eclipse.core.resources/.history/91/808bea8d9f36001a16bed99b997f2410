@@ -1,0 +1,37 @@
+package DataBase;
+import java.sql.*;
+
+public class Exammple2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+try{
+	Class.forName("oracle.jdbc.driver.OracleDriver");
+	Connection con =DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","hr","hr");
+	PreparedStatement stmt=con.prepareStatement("insert into employees values(?,?,?,?,?,?,?,?,?,?,?)");
+	stmt.setInt(1, 101);
+	stmt.setString(2, "tfh");
+	stmt.setString(3, "ram");
+	stmt.setString(4, "lkmnbhghy");
+	stmt.setString(5, "gufhmj");
+	stmt.setString(6, "jnbvdkvh");
+	stmt.setString(7, "tfh");
+	stmt.setString(8, "tfh");
+	stmt.setString(9, "tfh");
+	stmt.setString(10, "tfh");
+	stmt.setString(11, "tfh");
+	
+	int i=stmt.executeUpdate();
+	System.out.println(i+"records inserted");
+	con.close();
+	
+}
+	catch(Exception e)
+	{
+		System.out.println(e);
+	}
+	}
+	
+}
+	
+

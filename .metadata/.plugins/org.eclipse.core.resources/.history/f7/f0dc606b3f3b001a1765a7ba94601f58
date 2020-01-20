@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Employee Management</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>COGNIZANT </h1> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="home-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="logindetails.html">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="register.html">Register</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>CAFETERIA</h2>
+      <h5>Images</h5>
+      <img class="cafeteriaimg" src="https://media.glassdoor.com/l/60/70/9c/22/canteen.jpg" alt="cafeteriaimg" width="320" height="190">
+   <div class= "cafeteriaimg">cafeteriaimg</div>
+   <div class="col-lg-11">
+      <p>A cafeteria, sometimes called a canteen outside the U.S., is a type of food service location in which there is little or no waiting staff table service, whether a restaurant or within an institution such as a large office building </p>
+      <br>
+  </div>
+     <h3>TRANSPORTATION</h3>
+      <img class="transportation" src="https://www.parking-net.com/Upload/ContentManagersPictures/tim-haahs-phila-zoo1.jpg" width="320" height="190">
+   <div class= "transportation">transportation</div>
+   <div class="col-lg-11">
+    <div class="transportation">transportation</div><br>
+      <p>Digital transformation promises to change everything about how logistics companies plan, procure and fulfill.
+For example, advancements in speed and time work to your advantage in an increasingly real-time economy. Hyper-connectedness becomes reality in transport and logistics. And digital supply chains eliminate bottlenecks in today’s digital workflows.
+A host of new requirements are transforming the transportation and logistics industry forever. Cognizant can help you modernize and integrate even the most complex T&L systems, just in time for a digital world. </p>
+      <br>
+  </div>
+      <h3>TRAININGCLASSES</h3>
+      <img class="trainingclasses" src="https://www.sanfoundry.com/wp-content/uploads/2015/07/sanfoundry-training-classes-photos-b.jpg" width="320" height="190"">; 
+   <div class= "trainingclasses">trainingclasses</div>
+     <hr class="d-sm-none">
+    </div>
+     <div class="col-sm-11">
+    <div class="trainingclasses">Training</div>
+      <p>Cognizant has one of the best training centres in India and its training curriculum is also highly awarded. They will teach you your assigned technical domain plus some softskill classes will be there for your all round learning. </p>
+      <br>
+  </div>
+</div>
+</body>
+</html>

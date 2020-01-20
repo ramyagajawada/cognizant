@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+body
+{
+background-color:lavender;
+}
+ .block {
+  display: block;
+  width: 15%;
+  border: none;
+  background-color:;
+  color: blue;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+
+</style>
+</head>
+<body>
+
+<div class="container">
+<center>
+<h1>LOGIN PAGE</h1></center>
+<!--<h2>Form control: input</h2>
+  <p>The form below contains two input elements; one of type text and one of type password:</p>-->
+  <form action="/action_page.php">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">@</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Username" id="usr" name="username">
+    </div>
+
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Your Email" id="mail" name="email">
+      <div class="input-group-append">
+        <span class="input-group-text">@example.com</span>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" name="password">
+        </div>
+        
+           <button type="submit" class="block">LOGIN</button>
+            <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            
+            <div class="form-check">
+      <label class="form-check-label" for="check1">
+        <input type="checkbox" class="form-check-input" id="check1" name="remember" value="something" checked>Remember me
+     <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label>
+    </div>
+    
+    <div class="container">
+    <button type="cancel" class="btn btn-primary">Cancel</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    
+    <span class="psw">Forgot<a href="#">&nbsppassword?</a></span>
+    </div>
+    
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+package com;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+public class FileWrite {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		FileReader reader =new FileReader("D:\\plain.txt");
+		BufferedReader buffer=new BufferedReader(reader);
+		buffer.read();
+		buffer.close();
+		System.out.println("success");
+	}
+
+}
